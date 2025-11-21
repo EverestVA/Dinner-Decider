@@ -1,7 +1,7 @@
 import random
 
 
-#list of meals-
+#list of meals (name of meal, price to make, ingrediant 1, ingrediant 2, etc.)
 Meal_1 = ['name 1', 1, '1ingrediant 1', '1ingrediant 2', '1ingrediant 3', '1ingrediant 4', '1ingrediant 5']
 Meal_2 = ['name 2', 2, '2ingrediant 1', '2ingrediant 2', '2ingrediant 3', '2ingrediant 4', '2ingrediant 5']
 Meal_3 = ['name 3', 3, '3ingrediant 1', '3ingrediant 2', '3ingrediant 3', '3ingrediant 4', '3ingrediant 5']
@@ -16,7 +16,8 @@ Meal_11 = ['name 11', 11, '11ingrediant 1', '11ingrediant 2', '11ingrediant 3', 
 Meal_12 = ['name 12', 12, '12ingrediant 1', '12ingrediant 2', '12ingrediant 3', '12ingrediant 4', '12ingrediant 5']
 Meal_13 = ['name 13', 13, '12ingrediant 1', '12ingrediant 2', '12ingrediant 3', '12ingrediant 4', '12ingrediant 5']
 Meal_14 = ['name 14', 14, '13ingrediant 1', '13ingrediant 2', '13ingrediant 3', '13ingrediant 4', '13ingrediant 5']
-ingrediant_locations = [2,3,4,5,6]
+# if you add more ingrediants add to this too. it tells it what to print in the ingrediant list later(also make sure all the lists are the same lengths)
+ingrediant_locations = [0,2,3,4,5,6]
 
 Meal_name_list = [Meal_1[0], Meal_2[0], Meal_3[0], Meal_4[0], Meal_5[0], Meal_6[0], Meal_7[0], Meal_8[0], Meal_9[0], Meal_10[0], Meal_11[0], Meal_12[0], Meal_13[0], Meal_14[0]]
 Meal_cost_list = [Meal_1[1], Meal_2[1], Meal_3[1], Meal_4[1], Meal_5[1], Meal_6[1], Meal_7[1], Meal_8[1], Meal_9[1], Meal_10[1], Meal_11[1], Meal_12[1], Meal_13[1], Meal_14[1]]
